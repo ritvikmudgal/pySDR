@@ -11,4 +11,7 @@
 t = np.arange(100)<br>
 s = np.sin(0.15*2*np.pi*t)<br></i>
 <br> To use FFT we just have to add one line, <br><i>
-S = np.fft.fft(s)</i>
+S = np.fft.fft(s)</i><br>
+<b><i>Windowing</i></b>- FFT assumes that a slice of signal continues infinitely so it connects the end and starting, but due to having differenct characterstics and both end and start it does't blend nicely and so to correct that, we just multiply starting and ending with zero phase(Hamming) which makes them connect super neatly and reduces error.<br>
+To perform windowing we just have to add a line of code to our previous codes: <br><i>
+s = s * np.hamming(100)</i>
