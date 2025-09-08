@@ -6,7 +6,7 @@
 <p><b><i>Fourier Series</i></b>- Any signal is made up by summing up multiple sine waves, so its constituent sine waves are called fourier series<br>
 <b><i>Fourier Transform</i></b>- The conversion of a frequency phase to time phase or reverse is called Fourier Transform<br>
 <b><i>FFT</i></b>- It stands for Fast Fourier Transform, It is just an algorithm to perform Fourier Transform <br>
- ex. We have a sine wave:
+ ex. We have a sine wave:<br>
   import numpy as np <br>
 t = np.arange(100)<br>
 s = np.sin(0.15*2*np.pi*t)<br>
