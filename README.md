@@ -67,6 +67,12 @@ To perform windowing we just have to add a line of code to our previous codes: <
 
   <li><b>Quadrature Amplitude Modulation (QAM)</b> – Combines ASK + PSK. Constellations like 16-QAM, 64-QAM, 256-QAM carry multiple bits per symbol, widely used in WiFi and LTE.</li>Gene
 
-  <li><b>Python Examples</b> – </li>
+  <li><b>For symbol plotting</b> 
+   <img src="modulation1.png" alt="Alt Text" width="400"/>
+  </li>
+  <li><b>For noise adder</b> 
+   <img src="noise1.png" alt="Alt Text" width="400"/>
+  </li>
+</ol>
 </ol>
 
