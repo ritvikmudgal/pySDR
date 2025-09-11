@@ -49,8 +49,6 @@ To perform windowing we just have to add a line of code to our previous codes: <
 <ol>
   <li><b>Symbols</b> – A signal is made of <i>symbols</i>. Each symbol carries 1 or more bits. Example: Ethernet uses 4-level ASK → 2 bits per symbol.</li>
 
-  <li><b>Wireless Symbols</b> – We can’t transmit square waves (need infinite spectrum, huge antennas). Instead, we modulate a sinusoidal <i>carrier</i> by changing its amplitude, phase, or frequency.</li>
-
   <li><b>Amplitude Shift Keying (ASK)</b> – Vary amplitude of the carrier. 
     <ul>
       <li>2-ASK → 1 bit per symbol</li>
@@ -67,20 +65,8 @@ To perform windowing we just have to add a line of code to our previous codes: <
 
   <li><b>IQ Plots & Constellations</b> – Symbols are represented as points on the I/Q plane. Each modulation scheme has a “constellation” (set of valid points).</li>
 
-  <li><b>Quadrature Amplitude Modulation (QAM)</b> – Combines ASK + PSK. Constellations like 16-QAM, 64-QAM, 256-QAM carry multiple bits per symbol, widely used in WiFi and LTE.</li>
+  <li><b>Quadrature Amplitude Modulation (QAM)</b> – Combines ASK + PSK. Constellations like 16-QAM, 64-QAM, 256-QAM carry multiple bits per symbol, widely used in WiFi and LTE.</li>Gene
 
-  <li><b>Frequency Shift Keying (FSK)</b> – Data is encoded by shifting between N different frequencies. Example: 4-FSK → 2 bits per symbol. Bandwidth depends on symbol rate & spacing.</li>
-
-  <li><b>Differential Coding</b> – Solves phase ambiguity in PSK/QAM. Instead of sending absolute symbols, we encode changes between consecutive symbols. Common in DQPSK.</li>
-
-  <li><b>Noise & Channel Effects</b> – 
-    <ul>
-      <li>Additive White Gaussian Noise (AWGN) spreads constellation points.</li>
-      <li>Phase noise/jitter rotates points.</li>
-      <li>Pilot symbols or differential coding help correct these.</li>
-    </ul>
-  </li>
-
-  <li><b>Python Examples</b> – Generate QPSK/QAM symbols using NumPy, add AWGN or phase noise, and visualize constellations using matplotlib.</li>
+  <li><b>Python Examples</b> – </li>
 </ol>
 
