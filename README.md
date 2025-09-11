@@ -7,7 +7,8 @@
 <b><i>Fourier Transform</i></b>- The conversion of a frequency phase to time phase or reverse is called Fourier Transform<br>
 <b><i>FFT</i></b>- It stands for Fast Fourier Transform, It is just an algorithm to perform Fourier Transform <br>
  ex. We have a sine wave:<br>
- (sin-wave.png)
+<img src="sin-wave.png" alt="Alt Text" width="400"/>
+
 
 <br> To use FFT we just have to add one line, <br><i>
 S = np.fft.fft(s)</i><br>
