@@ -34,18 +34,10 @@ To perform windowing we just have to add a line of code to our previous codes: <
   
   <li><b>Carrier & Downconversion</b> – Real RF signals are very high freq (GHz). Mixers shift them to baseband (0 Hz) so they can be sampled at lower rates (MHz).</li>
   
-  <li><b>Receiver Architectures</b> – 
-    <ul>
-      <li>Direct Sampling (expensive, GHz ADCs)</li>
-      <li>Direct Conversion (Zero-IF, used in SDRs)</li>
-      <li>Superheterodyne (downconversion in steps)</li>
-    </ul>
-  </li>
   
- </ol>
 <h2>4. Digital Modulation</h2>
-<p>In this chapter we discuss transmitting data using <b>digital modulation</b> and wireless symbols. We design signals that convey information (1s and 0s) using schemes like ASK, PSK, QAM, and FSK. The main goal is to maximize <i>spectral efficiency</i> (bits/sec/Hz).</p>
-
+<p><b>digital modulation</b> and wireless symbols. We design signals that convey information (1s and 0s) using schemes like ASK, PSK, QAM, and FSK. The main goal is to maximize <i>spectral efficiency</i> (bits/sec/Hz).</p>
+</ol>
 <ol>
   <li><b>Symbols</b> – A signal is made of <i>symbols</i>. Each symbol carries 1 or more bits. Example: Ethernet uses 4-level ASK → 2 bits per symbol.</li>
 
